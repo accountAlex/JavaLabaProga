@@ -1,6 +1,6 @@
 package org.example.generative.Builder;
 
-class Car {
+public class Car {
     private final CarType carType;
     private final int seats;
     private final Engine engine;

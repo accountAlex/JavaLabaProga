@@ -1,6 +1,6 @@
 package org.example.structure.Bridge;
 
-class BasicRemote implements Remote {
+public class BasicRemote implements Remote {
     protected Device device;
     public BasicRemote() {}
     public BasicRemote(Device device) {

@@ -1,6 +1,6 @@
 package org.example.structure.Proxy;
 
-class Video {
+public class Video {
     public final String id;
     public final String title;
     public final String data;

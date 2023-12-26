@@ -1,6 +1,6 @@
 package org.example.structure.Adapter;
 
-class AdapterService {
+public class AdapterService {
     public void exec() {
         RoundHole hole = new RoundHole(5);
         RoundStick roundStick = new RoundStick(5);

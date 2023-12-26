@@ -1,6 +1,6 @@
 package org.example.generative.Singleton;
 
-class Connection {
+public class Connection {
     private static Connection instance;
     private Connection() {}
     // всякие разные методы данного класса

@@ -1,6 +1,6 @@
 package org.example.structure.Bridge;
 
-class AdvancedRemote extends BasicRemote {
+public class AdvancedRemote extends BasicRemote {
     public AdvancedRemote(Device device) {
         super.device = device;
     }

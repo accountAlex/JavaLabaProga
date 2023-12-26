@@ -1,6 +1,6 @@
 package org.example.generative.Builder;
 
-class BuilderService {
+public class BuilderService {
     public void exec() {
         CarBuilder builder = new CarBuilder();
         builder.setCarType(CarType.SPORTS_CAR);

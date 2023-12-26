@@ -2,7 +2,7 @@ package org.example.structure.Proxy;
 
 import java.util.HashMap;
 import java.util.Map;
-class CacheProxyYouTubeApiClient implements YouTubeApiClient {
+public class CacheProxyYouTubeApiClient implements YouTubeApiClient {
     private YouTubeApiClient youtubeService;
     private Map<String, Video> cachePopular = new HashMap<>();
     private Map<String, Video> cacheAll = new HashMap<>();

@@ -1,6 +1,6 @@
 package org.example.structure.Bridge;
 
-class BridgeService {
+public class BridgeService {
     public void exec() {
         testDevice(new Tv());
     }

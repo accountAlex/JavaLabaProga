@@ -1,6 +1,6 @@
 package org.example.structure.Adapter;
 
-class SquareStick {
+public class SquareStick {
     private int width;
 
     public SquareStick(int width) {

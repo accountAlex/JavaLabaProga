@@ -1,5 +1,5 @@
 package org.example.generative.Builder;
 
-enum Transmission {
+public enum Transmission {
     SINGLE_SPEED, MANUAL, AUTOMATIC, SEMI_AUTOMATIC
 }

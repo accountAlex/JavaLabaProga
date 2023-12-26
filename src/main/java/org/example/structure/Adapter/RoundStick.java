@@ -1,6 +1,6 @@
 package org.example.structure.Adapter;
 
-class RoundStick {
+public class RoundStick {
     private int radius;
 
     public RoundStick(int radius) {

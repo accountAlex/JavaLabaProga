@@ -1,6 +1,6 @@
 package org.example.structure.Adapter;
 
-class SquareStickAdapter extends RoundStick {
+public class SquareStickAdapter extends RoundStick {
     private SquareStick stick;
 
     public SquareStickAdapter(SquareStick stick) {

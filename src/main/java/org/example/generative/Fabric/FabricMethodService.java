@@ -1,6 +1,6 @@
 package org.example.generative.Fabric;
 
-class FabricMethodService {
+public class FabricMethodService {
     public void exec() {
         Configuration configuration = Configuration.initWeb();
 

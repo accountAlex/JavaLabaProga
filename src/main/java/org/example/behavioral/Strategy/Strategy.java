@@ -1,6 +1,6 @@
 package org.example.behavioral.Strategy;
 import java.util.List;
 
-interface Strategy {
+public interface Strategy {
     String process(List<String> strings);
 }

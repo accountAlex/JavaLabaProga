@@ -2,7 +2,7 @@ package org.example.behavioral.Strategy;
 import java.util.List;
 
 
-class StrategyServiceImpl implements StrategyService {
+public class StrategyServiceImpl implements StrategyService {
     private Strategy strategy;
 
     public StrategyServiceImpl(Strategy strategy) {

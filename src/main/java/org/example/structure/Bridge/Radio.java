@@ -1,6 +1,6 @@
 package org.example.structure.Bridge;
 
-class Radio implements Device {
+public class Radio implements Device {
     private boolean on = false;
     private int volume = 30;
     private int channel = 1;

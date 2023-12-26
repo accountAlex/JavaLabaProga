@@ -1,6 +1,6 @@
 package org.example.structure.Proxy;
 
-class ProxyService {
+public class ProxyService {
     public void exec() {
         YouTubeVideoDownloader nativeDownloader = new YouTubeVideoDownloader(new ThirdPartyYouTubeApiClient());
         YouTubeVideoDownloader smartDownloader = new YouTubeVideoDownloader(new CacheProxyYouTubeApiClient());

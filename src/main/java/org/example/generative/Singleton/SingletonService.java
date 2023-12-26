@@ -1,6 +1,6 @@
 package org.example.generative.Singleton;
 
-class SingletonService {
+public class SingletonService {
     public void exec() {
         Connection connection1 = Connection.getInstance();
         Connection connection2 = Connection.getInstance();

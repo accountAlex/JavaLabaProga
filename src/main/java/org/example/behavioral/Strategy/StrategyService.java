@@ -4,7 +4,7 @@ import java.util.List;
 
 
 
-interface StrategyService {
+public interface StrategyService {
     String exec(List<String> strings);
     StrategyService setStrategy(Strategy strategy);
 }

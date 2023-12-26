@@ -1,6 +1,6 @@
 package org.example.generative.Builder;
 
-class TripComputer {
+public class TripComputer {
     private Car car;
 
     public void setCar(Car car) {

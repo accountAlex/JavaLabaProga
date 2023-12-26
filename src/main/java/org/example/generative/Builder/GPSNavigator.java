@@ -1,6 +1,6 @@
 package org.example.generative.Builder;
 
-class GPSNavigator {
+public class GPSNavigator {
     private String route;
 
     public GPSNavigator() {
